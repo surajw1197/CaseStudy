@@ -1,0 +1,89 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-30T12:22:30.749Z",
+        "line": 5,
+        "name": "User moves to cart without adding any item",
+        "description": "",
+        "id": "cart-availability;user-moves-to-cart-without-adding-any-item",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9121138301,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is registered on testmeApp",
+            "match": {
+              "location": "CartAvailabilityTest.user_is_registered_on_testmeApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3476157001,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User searches for the product like headphone",
+            "match": {
+              "location": "CartAvailabilityTest.user_searches_for_the_product_like_headphone()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31613800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "try to process the payment without adding any item in the cart",
+            "match": {
+              "location": "CartAvailabilityTest.try_to_process_the_payment_without_adding_any_item_in_the_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 388458700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "TestMeApp doesnt display the cart icon",
+            "match": {
+              "location": "CartAvailabilityTest.testmeapp_doesnt_display_the_cart_icon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Cart Availability",
+    "description": "",
+    "id": "cart-availability",
+    "keyword": "Feature",
+    "uri": "file:features/CartAvailability.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

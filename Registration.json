@@ -1,0 +1,109 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-30T12:18:12.161Z",
+        "line": 5,
+        "name": "TestMeApp Registration functionality",
+        "description": "",
+        "id": "registration-functionality;testmeapp-registration-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8798906399,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on home page",
+            "match": {
+              "location": "RegistrationTest.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 710473000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on signup",
+            "match": {
+              "location": "RegistrationTest.user_clicks_on_signup()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1968581300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter the registration creds",
+            "match": {
+              "location": "RegistrationTest.user_enter_the_registration_creds(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "suraj24",
+                  "suraj",
+                  "waichale",
+                  "suraj24",
+                  "suraj24",
+                  "Male",
+                  "s@gmail.com",
+                  "7894561230",
+                  "Sep",
+                  "10",
+                  "1997",
+                  "hinjewadi, pune",
+                  "What is your Birth Place?",
+                  "latur"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122599,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Registration successfull",
+            "match": {
+              "location": "RegistrationTest.registration_successfull()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Registration Functionality",
+    "description": "",
+    "id": "registration-functionality",
+    "keyword": "Feature",
+    "uri": "file:features/Registration.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

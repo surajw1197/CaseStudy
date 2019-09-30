@@ -1,0 +1,77 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-30T12:20:52.050Z",
+        "line": 5,
+        "name": "search functionality",
+        "description": "",
+        "id": "testme-search-functionality;search-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8975672500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user has logged in TestmeApp",
+            "match": {
+              "location": "CaseStudyTest.user_has_logged_in_TestmeApp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1153977701,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user searches for a product by typing four characters",
+            "match": {
+              "location": "CaseStudyTest.user_searches_for_a_product_by_typing_four_characters()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 180437300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user gets all the suggestions",
+            "match": {
+              "location": "CaseStudyTest.user_gets_all_the_suggestions()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "TestMe search functionality",
+    "description": "",
+    "id": "testme-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:features/caseStudy.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
